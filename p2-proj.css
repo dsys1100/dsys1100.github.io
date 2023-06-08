@@ -1,0 +1,559 @@
+.p-proj-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.p-proj-sidebar {
+  flex: 0;
+  width: var(--dl-size-size-xlarge);
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: stretch;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.p-proj-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.p-proj-text {
+  color: var(--dl-color-gray-white);
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Source Code Pro;
+  font-weight: 400;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.p-proj-text01 {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.p-proj-text02 {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.p-proj-text03 {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.p-proj-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 100%;
+  flex-direction: column;
+}
+.p-proj-container1 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.p-proj-windows {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-image {
+  width: 25px;
+  object-fit: cover;
+}
+.p-proj-container2 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.p-proj-heading {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-text04 {
+  line-height: 1;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-button {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-button01 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.p-proj-button02 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.p-proj-button03 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.p-proj-button04 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.p-proj-text09 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.p-proj-button05 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.p-proj-button06 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-button07 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-button08 {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-second-column {
+  width: 100%;
+  display: column;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-cursors {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-image1 {
+  width: 25px;
+  object-fit: cover;
+}
+.p-proj-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.p-proj-container4 {
+  display: grid;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.p-proj-text10 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-text11 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.p-proj-container5 {
+  display: grid;
+  align-items: flex-start;
+  margin-left: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-template-columns: 1fr 1fr;
+}
+.p-proj-image2 {
+  width: auto;
+  object-fit: cover;
+}
+.p-proj-button09 {
+  width: 108px;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: -30px;
+}
+.p-proj-mido {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-image3 {
+  width: 25px;
+  object-fit: cover;
+}
+.p-proj-rn4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.p-proj-a12qs-bug {
+  display: grid;
+  position: relative;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.p-proj-text16 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-text17 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.p-proj-link {
+  width: 300px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.p-proj-link1 {
+  width: 280px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.p-proj-miui-el13repack {
+  display: grid;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.p-proj-text20 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.p-proj-button10 {
+  width: 160px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p-proj-third-column {
+  width: 100%;
+  display: column;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-this-site {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-image4 {
+  width: 25px;
+  object-fit: cover;
+}
+.p-proj-navlink {
+  width: 222px;
+  margin-top: -5px;
+  margin-left: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.p-proj-dalshe {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.p-proj-image5 {
+  width: 25px;
+  object-fit: cover;
+}
+.p-proj-container6 {
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.p-proj-text21 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+@media(max-width: 1600px) {
+  .p-proj-container {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .p-proj-sidebar {
+    width: var(--dl-size-size-xlarge);
+    align-self: stretch;
+  }
+  .p-proj-text01 {
+    font-family: Inter;
+  }
+  .p-proj-features {
+    width: 100%;
+    max-width: 100%;
+    align-self: flex-start;
+  }
+  .p-proj-windows {
+    padding: 0px;
+  }
+  .p-proj-image {
+    width: 25px;
+  }
+  .p-proj-container2 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .p-proj-heading {
+    font-family: Open Sans;
+    font-weight: 600;
+  }
+  .p-proj-text04 {
+    line-height: 1.25;
+  }
+  .p-proj-second-column {
+    padding: 0px;
+  }
+  .p-proj-cursors {
+    padding: 0px;
+  }
+  .p-proj-image1 {
+    width: 25px;
+  }
+  .p-proj-container4 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .p-proj-text10 {
+    font-family: Open Sans;
+    font-weight: 600;
+  }
+  .p-proj-text11 {
+    line-height: 1.25;
+  }
+  .p-proj-container5 {
+    margin-left: 0px;
+  }
+  .p-proj-button09 {
+    width: 96px;
+    margin-left: -40px;
+  }
+  .p-proj-mido {
+    padding: 0px;
+  }
+  .p-proj-image3 {
+    width: 25px;
+  }
+  .p-proj-a12qs-bug {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .p-proj-text16 {
+    font-family: Open Sans;
+    font-weight: 600;
+  }
+  .p-proj-text17 {
+    line-height: 1.25;
+  }
+  .p-proj-miui-el13repack {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .p-proj-third-column {
+    padding: 0px;
+  }
+  .p-proj-this-site {
+    padding: 0px;
+  }
+  .p-proj-image4 {
+    width: 25px;
+  }
+  .p-proj-dalshe {
+    padding: 0px;
+  }
+  .p-proj-image5 {
+    width: 25px;
+  }
+  .p-proj-container6 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .p-proj-text21 {
+    font-family: Open Sans;
+  }
+  .p-proj-text22 {
+    font-size: 16px;
+    line-height: 1.15;
+  }
+}
+@media(max-width: 1200px) {
+  .p-proj-container {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .p-proj-sidebar {
+    width: var(--dl-size-size-xlarge);
+    align-self: stretch;
+  }
+  .p-proj-cursors {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .p-proj-button09 {
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+  .p-proj-text16 {
+    font-family: Open Sans;
+    font-weight: 600;
+  }
+  .p-proj-text17 {
+    line-height: 1.25;
+  }
+  .p-proj-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .p-proj-link1 {
+    margin-bottom: var(--dl-space-space-unit);
+    text-decoration: none;
+  }
+  .p-proj-button10 {
+    margin-bottom: var(--dl-space-space-unit);
+    text-decoration: none;
+  }
+  .p-proj-this-site {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .p-proj-dalshe {
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 991px) {
+  .p-proj-sidebar {
+    flex: 1;
+    width: var(--dl-size-size-xlarge);
+    height: auto;
+  }
+  .p-proj-rn4 {
+    margin-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .p-proj-sidebar {
+    flex: 1;
+    width: var(--dl-size-size-xlarge);
+    height: auto;
+  }
+  .p-proj-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .p-proj-container1 {
+    grid-template-columns: 1fr;
+  }
+  .p-proj-windows {
+    flex-direction: row;
+  }
+  .p-proj-container2 {
+    flex-direction: column;
+  }
+  .p-proj-second-column {
+    flex-direction: row;
+  }
+  .p-proj-cursors {
+    flex-direction: row;
+  }
+  .p-proj-container4 {
+    flex-direction: column;
+  }
+  .p-proj-container5 {
+    flex-direction: column;
+  }
+  .p-proj-mido {
+    flex-direction: row;
+  }
+  .p-proj-a12qs-bug {
+    flex-direction: column;
+  }
+  .p-proj-text16 {
+    font-family: Open Sans;
+    font-weight: 600;
+  }
+  .p-proj-text17 {
+    line-height: 1.25;
+  }
+  .p-proj-miui-el13repack {
+    flex-direction: column;
+  }
+  .p-proj-third-column {
+    flex-direction: row;
+  }
+  .p-proj-this-site {
+    flex-direction: row;
+  }
+  .p-proj-dalshe {
+    flex-direction: row;
+  }
+  .p-proj-container6 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .p-proj-sidebar {
+    flex: 1;
+    width: var(--dl-size-size-xlarge);
+    height: auto;
+  }
+  .p-proj-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .p-proj-container2 {
+    flex-direction: column;
+  }
+  .p-proj-text04 {
+    line-height: 1;
+  }
+  .p-proj-container4 {
+    flex-direction: column;
+  }
+  .p-proj-container5 {
+    flex-direction: column;
+  }
+  .p-proj-a12qs-bug {
+    flex-direction: column;
+  }
+  .p-proj-miui-el13repack {
+    flex-direction: column;
+  }
+  .p-proj-container6 {
+    flex-direction: column;
+  }
+}
