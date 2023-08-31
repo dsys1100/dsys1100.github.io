@@ -1,4 +1,4 @@
-.p-about-container {
+.p3about-en-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.p-about-sidebar {
+.p3about-en-sidebar {
   flex: 0;
   width: var(--dl-size-size-xlarge);
   display: flex;
@@ -16,12 +16,12 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-black);
 }
-.p-about-nav {
+.p3about-en-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.p-about-text {
+.p3about-en-text {
   color: var(--dl-color-gray-white);
   width: auto;
   height: auto;
@@ -33,179 +33,204 @@
   font-weight: 400;
   margin-bottom: var(--dl-space-space-threeunits);
 }
-.p-about-text01 {
+.p3about-en-text01 {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
-.p-about-navlink {
+.p3about-en-navlink {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
-.p-about-text02 {
+.p3about-en-navlink1 {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
-.p-about-features {
+.p3about-en-text02 {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.p3about-en-features {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: 100%;
   flex-direction: column;
 }
-.p-about-plani {
+.p3about-en-plani {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: flex-start;
 }
-.p-about-heading {
+.p3about-en-heading {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-text03 {
+.p3about-en-text03 {
   line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-container1 {
+.p3about-en-container1 {
   width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-twounits);
   grid-template-columns: 1fr 1fr 1fr;
 }
-.p-about-first-alpha {
+.p3about-en-first-alpha {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.p-about-heading1 {
+.p3about-en-heading1 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-text11 {
+.p3about-en-text11 {
   line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-second-beta {
+.p3about-en-second-beta {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.p-about-heading2 {
+.p3about-en-heading2 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-text14 {
+.p3about-en-text14 {
   line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-third-release {
+.p3about-en-third-release {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.p-about-heading3 {
+.p3about-en-heading3 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-text15 {
+.p3about-en-text15 {
   line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-fourth-fu-lrelease {
+.p3about-en-fourth-ful-lrelease {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.p-about-heading4 {
+.p3about-en-heading4 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-text16 {
+.p3about-en-text16 {
   line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-fiveth-icons-links {
+.p3about-en-fiveth-icons-links {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.p-about-heading5 {
+.p3about-en-heading5 {
   font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
 }
-.p-about-text17 {
+.p3about-en-text17 {
+  line-height: 1;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p3about-en-sixth-info-link {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.p3about-en-heading6 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.p3about-en-text18 {
   line-height: 1;
   margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 1366px) {
-  .p-about-container {
+  .p3about-en-container {
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
   }
-  .p-about-sidebar {
+  .p3about-en-sidebar {
     width: var(--dl-size-size-xlarge);
     align-self: stretch;
   }
 }
 @media(max-width: 480px) {
-  .p-about-sidebar {
+  .p3about-en-sidebar {
     flex: 1;
     width: var(--dl-size-size-xlarge);
     height: auto;
   }
-  .p-about-features {
+  .p3about-en-features {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .p-about-plani {
+  .p3about-en-plani {
     flex-direction: column;
   }
-  .p-about-text03 {
+  .p3about-en-text03 {
     line-height: 1;
   }
-  .p-about-text04 {
+  .p3about-en-text04 {
     line-height: 1;
   }
-  .p-about-first-alpha {
+  .p3about-en-first-alpha {
     flex-direction: column;
   }
-  .p-about-text11 {
+  .p3about-en-text11 {
     line-height: 1;
   }
-  .p-about-second-beta {
+  .p3about-en-second-beta {
     flex-direction: column;
   }
-  .p-about-text14 {
+  .p3about-en-text14 {
     line-height: 1;
   }
-  .p-about-third-release {
+  .p3about-en-third-release {
     flex-direction: column;
   }
-  .p-about-text15 {
+  .p3about-en-text15 {
     line-height: 1;
   }
-  .p-about-fourth-fu-lrelease {
+  .p3about-en-fourth-ful-lrelease {
     flex-direction: column;
   }
-  .p-about-text16 {
+  .p3about-en-text16 {
     line-height: 1;
   }
-  .p-about-fiveth-icons-links {
+  .p3about-en-fiveth-icons-links {
     flex-direction: column;
   }
-  .p-about-text17 {
+  .p3about-en-text17 {
+    line-height: 1;
+  }
+  .p3about-en-sixth-info-link {
+    flex-direction: column;
+  }
+  .p3about-en-text18 {
     line-height: 1;
   }
 }
